@@ -1,5 +1,9 @@
 body {
   height: 100vh;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.035em;
 }
 header a {
   position: absolute;
@@ -9,8 +13,6 @@ header a {
   left: 77px;
   top: 40px;
   font-family: Inconsolata;
-  font-style: normal;
-  font-weight: bold;
   font-size: 24px;
   line-height: 25px;
   letter-spacing: -0.08em;
@@ -43,32 +45,21 @@ header a {
 }
 .items a {
   width: 540px;
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: bold;
+
   font-size: 80px;
   line-height: 95px;
   word-spacing: 10px;
-  letter-spacing: -0.035em;
   color: #333333;
 }
 .items p {
   width: 381px;
-  font-family: space Mono;
-  font-style: normal;
-  font-weight: normal;
   font-size: 32px;
   line-height: 36px;
-  letter-spacing: -0.035em;
   color: #4f4f4f;
 }
 .items button {
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
   line-height: 21px;
-  letter-spacing: -0.035em;
   text-transform: uppercase;
   color: #ffffff;
   width: 216px;
@@ -79,4 +70,8 @@ header a {
   position: relative;
   left: 0px;
   top: 65px;
+  border: none;
+}
+.items button:hover {
+  background: #1a1919;
 }
